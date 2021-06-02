@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Main from './components/main'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
+    <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  {/* <div className="App">
+    <Navbar />
+    <Main />
+  </div> */}
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

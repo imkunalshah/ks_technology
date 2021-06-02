@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+
+#navbar{
+  background-color: #142850;
+}
+
+.Top{
+  padding: 10%;
+  background-color: #27496d;
+}
+
+.cloud{
+  width: 100px;
+  height: 100px;
+}
+
+.android{
+  width: 100px;
+  height: 100px;
+}
+
+.web{
+  width: 200px;
+  height: 200px;
+}
+
+#name{
+  font-family: "Sacramento";
+  color: white;
+  text-align: center;
+}
+
+#work{
+  color: white;
+  text-align: center;
+  font-family: "Merriweather";
+}
+
+#top_cloud{
+position: relative;
+text-align: center;
+left: 150px;
+bottom: 100px;
+}
+
+#top_android{
+position: relative;
+bottom: 100px;
+left: 750px;
+text-align: center;
+}
+
+#bottom_cloud{
+position: relative;
+left: 850px;
+}
+
+#bottom_android{
+  position: relative;
+  left: 50px;
+  text-align: center;
+}
+
+#Web{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+
+@media (max-width: 992px){
+
+  #top_cloud{
+    position: relative;
+    text-align: center;
+    top: -5px;
+    left: -10px;
+    }
+    
+    #top_android{
+    position: relative;
+    top: -20px;
+    left: 200px;
+    text-align: center;
+    }
+    
+    #bottom_cloud{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    }
+    
+    #bottom_android{
+      position: relative;
+      top: 50px;
+      left: -100px;
+      text-align: center;
+    }
+    
+    #Web{
+      text-align: center;
+      position: relative;
+      margin-bottom: 50px;
+      left: 100px;
+    }
+
+}
